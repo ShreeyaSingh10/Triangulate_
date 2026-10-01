@@ -52,7 +52,7 @@
 
 :root {
   --radius: 0.5rem;
-  /* DeepDiligence dark financial palette
+  /* Triangulate dark financial palette
      bg #0f172a, card #1e293b, border #334155, accent #3b82f6 */
   --background: oklch(0.205 0.04 265);
   --foreground: oklch(0.96 0.01 250);

@@ -19,7 +19,7 @@ import {
   TrendingUp,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import heroAnalyze from "@/assets/hero-analyze.avif";
+import heroAnalyze from "@/assets/tri-analyze.jpg";
 
 const searchSchema = z.object({
   company: z.string().optional(),

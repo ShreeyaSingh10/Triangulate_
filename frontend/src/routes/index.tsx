@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Link, useNavigate } from "@tanstack/react-router";
 import { Header } from "@/components/Header";
 import { ArrowRight } from "lucide-react";
-import heroSkyscraper from "@/assets/hero-skyscraper.jpg";
+import heroSkyscraper from "@/assets/tri-home.jpg";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -40,11 +40,11 @@ function Index() {
         <section className="relative pt-20 pb-16 text-center">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/40 px-3 py-1 text-xs text-foreground/80 backdrop-blur">
             <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-success" />
-            Multi-agent equity research
+            Five agents · One sourced verdict
           </div>
           <h1 className="text-balance text-5xl font-bold tracking-tight text-white drop-shadow-[0_2px_18px_rgba(0,0,0,0.65)] sm:text-6xl">
-            AI-Powered Investment
-            <br /> Due Diligence
+            Triangulate
+            <br /> Multi-agent equity research
           </h1>
 
           <div className="mt-24 flex flex-wrap items-center justify-center gap-3">

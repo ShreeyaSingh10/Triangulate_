@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import { Header } from "@/components/Header";
-import heroWeekly from "@/assets/hero-weekly.jpg";
+import heroWeekly from "@/assets/tri-weekly.jpg";
 import { ConfidenceBadge, RatingBadge } from "@/components/badges";
 import {
   getJSON,

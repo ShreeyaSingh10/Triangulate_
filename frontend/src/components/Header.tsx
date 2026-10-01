@@ -12,8 +12,8 @@ export function Header({ subtle = false }: { subtle?: boolean }) {
     >
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-6">
         <Link to="/" className="flex items-center gap-2 font-semibold tracking-tight text-white drop-shadow-[0_1px_8px_rgba(0,0,0,0.6)]">
-          <img src={logo} alt="DeepDiligence logo" className="h-7 w-7 invert" />
-          <span>DeepDiligence</span>
+          <img src={logo} alt="Triangulate logo" className="h-7 w-7 invert" />
+          <span>Triangulate</span>
         </Link>
         <nav className="flex items-center gap-1 text-sm">
           <Link
